@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+html {
+    /* To make use of full height of page*/
+    min-height: 100%;
+    margin: 0;
+}
+
+body {
+    color: white;
+    font-family: gt_walsheim, Helvetica, sans-serif;
+    font-size: 17px;
+    border-radius: 10px;
+    min-height: 100%;
+    margin: 10px;
+}
+
+.background {
+    background: linear-gradient(135deg, #564aab 0%,#ee0076 100%);
+    background-size: 400% 400%;
+    animation: BackgroundGradient 20s ease infinite;
+}
+
+ @keyframes BackgroundGradient {
+     0% {background-position: 0% 50%;} 
+     50% {background-position: 100% 50%;}
+     100% {background-position: 0% 50%;}
+ }
+
+ .landbot-style {
+    font-size: 12px;
+    margin-left: 50px;
+    margin-top: -20px;  
+    font-weight: bold;
+    letter-spacing: -1.2px;
+
+}
+
+.design-link {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 2px;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.design-signup {
+    border: 2px solid white;
+    margin-right: 50px;    
+}
+
+.design-signup:hover {
+    background-color: rgb(238, 0, 118); 
+}
+
+.design-login:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.box {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px 15px;
+    margin: 2px;
+    width: 380px;
+    color: rgb(69, 33, 98);  
+}
+
+img {
+    display: block;
+}
+
+.message-avatar {
+
+    background-position: left;
+}
+
+div {
+    display: block;
+}
+
+.msg-img {
+    background-position: 50%;
+    background-size: contain;
+}
+
+.gif-details {
+    border-radius: 20px;
+    width: 300px;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -200px;
+}
+
+.option {
+    text-transform: uppercase;
+    font-size: 10px;
+    border-style: 3px dotted #000;
+}
+
+.button-design {
+    border-color:#bc0044;
+    background-color: #ee0076;
+    color: white;
+    padding: 20px 25px;
+    font-size: 100%;
+}
+
+.button-design:hover {
+    background-color: #ff1e94;
+}
+
+.notice {
+    font-size: 14px;
+}
+
+.privacy-policy-design {
+    color: white;
+}
+
+.footer-box {
+    background-color: white;
+    color: rgb(69, 33, 98);
+    width: fit-content;
+}
+
+  
